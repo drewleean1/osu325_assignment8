@@ -29,7 +29,7 @@ def nextValidMin(G, visited):
     return next_edge
 
 def Prims(G):
-    "brute force implementation of the Prims algorithm that takes a graph G and uses two helper functions, nonZeroMin
+    """brute force implementation of the Prims algorithm that takes a graph G and uses two helper functions, nonZeroMin"""
     and nextValidMin"
     result = []
     visited = [0]                                               #start with random node, 0
