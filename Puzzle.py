@@ -35,6 +35,8 @@ def solve_puzzle(Board, Source, Destination):
                 distance[neighbor] = path
 
             heapq.heappush(pq, (neighbor))
+    if distance[Destination] == []
+        return None
     return distance[Destination]
 
 Puzzle = [
